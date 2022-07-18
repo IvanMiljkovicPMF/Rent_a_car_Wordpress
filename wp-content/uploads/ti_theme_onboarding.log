@@ -1,0 +1,22 @@
+[12/Feb/2022:23:59:30] (I): WordPress Instance Info:
+[12/Feb/2022:23:59:30] (I): Home URL : http://localhost
+[12/Feb/2022:23:59:30] (I): Site URL : http://localhost
+[12/Feb/2022:23:59:30] (I): WordPress Version : 5.9
+[12/Feb/2022:23:59:30] (I): Onboarding Version : 1.1.20
+[12/Feb/2022:23:59:30] (I): Multisite : No
+[12/Feb/2022:23:59:30] (I): Server Info : Apache/2.4.51 (Win64) PHP/7.4.26
+[12/Feb/2022:23:59:30] (I): PHP Version : 7.4.26
+[12/Feb/2022:23:59:30] (I): HTTPS : No
+[12/Feb/2022:23:59:30] (I): PHP Max Execution Time : 120
+[12/Feb/2022:23:59:30] (I): PHP Max Input Vars : 2500
+[12/Feb/2022:23:59:30] (I): Max Upload Size : 2097152
+[12/Feb/2022:23:59:30] (I): Plugins:
+[12/Feb/2022:23:59:31] (I): [PLUGIN] All-in-One WP Migration : v7.54 (ServMask)
+[12/Feb/2022:23:59:31] (I): [PLUGIN] aThemes Starter Sites : v1.0.16 (aThemes)
+[12/Feb/2022:23:59:31] (I): [PLUGIN] Classic Editor : v1.6.2 (WordPress Contributors)
+[12/Feb/2022:23:59:31] (I): [PLUGIN] eaSYNC Booking : v1.1.9 (Syntactics, Inc.)
+[12/Feb/2022:23:59:31] (I): [PLUGIN] Elementor : v3.5.5 (Elementor.com)
+[12/Feb/2022:23:59:31] (I): [PLUGIN] Maintenance : v4.05 (WebFactory Ltd)
+[12/Feb/2022:23:59:31] (I): [PLUGIN] Gutenberg Blocks and Template Library by Otter : v1.7.5 (ThemeIsle)
+[12/Feb/2022:23:59:31] (I): [PLUGIN] Templates Patterns Collection : v1.1.20 (ThemeIsle)
+[12/Feb/2022:23:59:31] (I): [PLUGIN] WPForms Lite : v1.7.2.1 (WPForms)

@@ -1,0 +1,244 @@
+/* backend */
+
+.hotel_select_entries {
+    border: 0px;
+    color: white;
+    border-radius: 2px;
+    background-color: #4c4948;
+    padding: 5px 15px;
+    text-shadow: 1px 1px 1px #5d5d5d;
+    cursor: pointer;
+}
+
+#hotel_view_more_details {
+    padding: 10px;
+}    
+
+#hotel_view_more_details.active {
+    box-shadow: 0px 0px 10px 3px #4b4948;
+}
+
+div.dataTables_wrapper div.mdl-grid.dt-table, .mdl-grid {
+    width: 100%;
+}
+
+.mdl-button:hover {
+    background-color: rgba(255, 87, 34, 0.19);
+}
+
+.mdl-button--raised.mdl-button--colored {
+    background: #FF5722;
+}
+
+.mdl-button--raised.mdl-button--colored:active, 
+.mdl-button--raised.mdl-button--colored:hover {
+    background-color: #FF5722;
+}
+
+main.sync_backend_entries {
+  min-width: 320px;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+main.sync_backend_entries section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+main.sync_backend_entries input[type="radio"] {
+  display: none;
+}
+
+main.sync_backend_entries .sync_tab + label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+main.sync_backend_entries label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+main.sync_backend_entries label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+main #sync_paypal_config label:hover { cursor: auto !important; color: inherit; }
+
+main #sync_paypal_config .setting { display: inline; width: auto; margin: 0px 20px 0px 0px; }
+
+main.sync_backend_entries .sync_product_currency_code { margin-top: 20px; }
+
+main.sync_backend_entries .sync_tab:checked + label {
+  color: #f55724;
+  border: 1px solid #ddd;
+  border-top: 2px solid #ff5722;
+  border-bottom: 1px solid #fff;
+}
+
+main.sync_backend_entries #tab1:checked ~ #content1,
+main.sync_backend_entries #tab2:checked ~ #content2,
+main.sync_backend_entries #tab3:checked ~ #content3,
+main.sync_backend_entries #tab4:checked ~ #content4 {
+  display: block !important;
+}
+
+main.sync_backend_entries table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 1px solid #FF5722;
+}
+
+main.sync_backend_entries table.dataTable tfoot th, table.dataTable tfoot td {
+    border-top: 1px solid #FF5722;
+}
+
+main.sync_backend_entries button.bubbly-button {
+    background: #FF5722;
+    color: white;
+    border: 0px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+main.sync_backend_entries button.bubbly-button:hover {
+    color: #f55724;
+    background-color: white;
+}
+
+#single_view_entry_modal .data-row span:last-child {
+    float: right;
+}
+
+#single_view_entry_modal .data-row span:first-child {
+    font-weight: 600;
+}
+
+#single_view_entry_modal .data-row {
+    border-bottom: 2px solid #FF5722;
+    padding: 10px 3px;
+}
+
+#single_view_entry_modal .data-container {
+    padding: 20px;
+}
+
+main.sync_backend_entries .card {
+    display: contents;
+}
+
+.setting-branch-location form label {
+    padding: 0px;
+    color: black;
+}
+
+.setting-branch-location .item-row,
+.setting-car-pickup-location .item-row,
+.setting-currency-location .item-row,
+.setting-car-types .item-row,
+.setting-car-model .item-row {
+    padding: 10px 15px;
+}
+
+.setting-branch-location .container,
+.setting-car-pickup-location .container,
+.setting-billing-province-location .container,
+.setting-car-types .container,
+.setting-car-model .container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.setting-timeslot .item-row label {
+    padding: 0px;
+    color: black;
+}
+
+.setting-timeslot .item-row {
+    padding: 0px 10px;
+}
+
+.setting-timeslot .item-row input {
+    margin: 5px 0px;
+}
+
+.setting-timeslot .container {
+    padding: 0px 5px;
+}
+
+.setting-timeslot .item-row:last-child {
+    width: 100%;
+}
+
+.setting-timeslot .container form {
+    float: left;
+    width: min-content;
+}
+
+#single_view_entry_modal .row-license-image img {
+    width: 200px;
+    height: 100px;
+    display: block;
+}
+
+div#restau_entries_table_wrapper, div#car_entries_table_wrapper, div#hotel_entries_table_wrapper {
+    display: none;
+}
+
+.sync_calendar_schedule {
+    width:auto;
+    height:auto;
+    background:white;
+    border:1px solid #f55725;
+    position:absolute;
+    z-index:10001;
+    padding:10px 10px 10px 10px ;
+    line-height: 200%;
+}
+
+a.fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end {
+    cursor: pointer;
+}
+
+button.sync_color_orange {
+    background-color: #f55724;
+    border: 0px;
+}
+
+button.sync_color_orange:hover {
+    background-color: #f55724b3;
+}
+
+.sync_color_define p:nth-child(3) {
+    background-color: #f55724;
+}
+.sync_color_define p:nth-child(2) {
+    background-color: #c7c7c7;
+}
+.sync_color_define p:last-child {
+    background-color: grey;
+}
+.sync_color_define p:first-child {
+    background-color: rgb(15, 169, 21);
+}
+.sync_color_define p {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.fc-day-grid-event .fc-content {
+    padding: 2px;
+}
+
+/* END of backend */
